@@ -1,7 +1,7 @@
 variable "ami" {
    type        = string
-   description = "Ubuntu AMI ID in N. Virginia Region"
-   default     = "ami-0f0c9e107315d5a44"
+   description = "Ubuntu AMI ID in Frankfurt Region"
+   default     = "ami-082b381a5e60e13b8"
 }
 
 variable "instance_type" {
