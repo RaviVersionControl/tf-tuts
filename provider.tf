@@ -9,7 +9,7 @@ terraform {
 backend "s3" {
    bucket = "tf-tuts-state-rrs-eu"
    key    = "state"
-   region = "eu-central-1"
+   region = "us-east-1"
  }
 }
 provider "aws" {
