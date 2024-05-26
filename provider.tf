@@ -14,6 +14,4 @@ backend "s3" {
 }
 provider "aws" {
   region     = "eu-central-1"
-  access_key = "AKIAXV4K4TIWXPVCZHAK"
-  secret_key = "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"
 }
